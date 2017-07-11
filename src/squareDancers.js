@@ -4,7 +4,7 @@ var SquareDancer = function (top, left, timeBetweenSteps) {
   this.setPosition(top, left);
 
 
-  };
+};
 
 SquareDancer.prototype = Object.create(Dancer.prototype);
 
