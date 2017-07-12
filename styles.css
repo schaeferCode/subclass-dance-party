@@ -11,7 +11,7 @@ body, a:link, a:visited, a:active{
 }
 
 
-.title, .addDancerButton, .addSquareDancer{
+.title, .addCircleDancerButton, .addSquareDancerButton, .lineUpButton{
   padding:5px 12px;
   float:right;
 }
@@ -24,11 +24,13 @@ body, a:link, a:visited, a:active{
 }
 .dancer{
   border:10px solid red;
-  border-radius:30px;
   position:absolute;
 }
 
-.squareDancer {
-  border: 10px solid blue;
-  position: absolute;
+.circle {
+  border-radius:30px;
+}
+
+.square {
+  border:10px solid blue;
 }

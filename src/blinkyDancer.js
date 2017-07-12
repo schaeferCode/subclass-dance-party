@@ -1,5 +1,7 @@
 var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
-  Dancer.call(this, top, left, timeBetweenSteps);
+  Dancer.call(this, top, left, timeBetweenSteps, 'circle');
+
+
 
   this.setPosition(top, left);
 
